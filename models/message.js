@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+// schema of the db to be saved
 const messageSchema = mongoose.Schema({
     name: {
         type: String,

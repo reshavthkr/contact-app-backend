@@ -3,6 +3,7 @@ const router = express.Router()
 
 const { generateOTP, sendSMS, getSMS, getSingleMessage } = require('../controllers/message.js')
 
+
 router.get('/generateOTP', generateOTP)
 router.post('/sendSMS', sendSMS)
 router.get('/getSMS', getSMS)
